@@ -3,6 +3,7 @@
 describe('Test', ()=>{
 
     it('test', ()=>{
-        cy.visit('http://localhost:3000/signin')
+        cy.visit('http://localhost:3000/signup')
+        cy.xpath('//input[@id="firstName"]')
     })
 })

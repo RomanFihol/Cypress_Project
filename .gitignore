@@ -1,1 +1,4 @@
 node_modules
+support
+cypress.config.js
+package.json
