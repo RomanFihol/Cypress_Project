@@ -1,10 +1,3 @@
-import 'cypress-xpath';
-
-Cypress.Commands.add('xpath', { prevSubject: 'element' }, (subject, expression, options) => {
-  return cy.wrap(subject, options).xpath(expression);
-});
-
-
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
