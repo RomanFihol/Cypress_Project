@@ -1,9 +1,9 @@
 export class GeneralSteps{
     static get visit(){
-        cy.visit('http://localhost:3000/signup');
+        cy.visit('/signup');
     }
     static get visitSignUpPage(){
-        cy.visit('http://localhost:3000/signin');
+        cy.visit('/signin');
     }
 
 }

@@ -20,7 +20,7 @@ export class CheckLeftMenuSteps extends GeneralSteps{
       LeftMenuPageObject.getAccountBalanceText.should(`be.visible`);
     }
 
-    checkAccountBalance(){
+    checkAccountBalance(balance){
       LeftMenuPageObject.getAccountBalanceText.should(`be.visible`);
       LeftMenuPageObject.getAccountBalanceNumbers.invoke('text').then((text) => {
         const hasNumbers = /\d/.test(text);

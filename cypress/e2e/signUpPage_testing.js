@@ -16,7 +16,7 @@ describe('"SignUp" page testing', () => {
         signUpStep.fillTheForm(userWithValidDate);
     })
 
-    it.only(`Fill the form with ${userBlankFirstName.scenario}`, () => {
+    it(`Fill the form with ${userBlankFirstName.scenario}`, () => {
         signUpStep.test(userWithValidDate);
     })
 
